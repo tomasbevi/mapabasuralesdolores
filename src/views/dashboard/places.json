@@ -1,0 +1,395 @@
+{
+	"results": [
+		{	
+		"id":1,
+		"nombre": "1 Canal 9",
+		"valoracion": "5",
+		"tipo": "1",
+		"estado": "1",
+		"descripcion": "Basural municipal, en un lote amplo de cuatro manzanas el municipio de dolores lo utilizo como tiradero a cielo abierto durante muchisimo tiempo.",
+		"location": {
+				"lat": -36.275867,
+				"lng": -57.686680
+				} 
+		},
+		{	"id":2,
+			"nombre": "2 Rico y Bavera",
+			"valoracion": "5",
+			"tipo": "2",
+			"estado": "1",
+			"descripcion": "Se encuentra en una zona rural, bastante alejado de la población, a si mismo gran parte de la zona se encuentra afectada por plasticos y basura desechada por la gente.",
+			"imgs": [
+				{
+					"src": "img2-1.jpg"
+				}
+			],
+			"location": {
+					"lat": -36.333802,
+					"lng": -57.666138
+					}
+		},
+		{	"id":3,
+			"nombre": "3 Calle Lara",
+			"valoracion": "5",
+			"tipo": "2",
+			"estado": "1",
+			"descripcion": "Se encuentra en una zona rural, bastante alejado de la población, a si mismo gran parte de la zona se encuentra afectada por plasticos y basura desechada por la gente.",
+			"imgs": [
+				{
+					"src": "img3-1.jpg"
+				},
+				{
+					"src": "img3-2.jpg"
+				}
+			],
+			"location": {
+					"lat": -36.323616,
+					"lng": -57.668637
+					}
+		},
+		{	"id":4,
+			"nombre": "4 Lara Cielo Abierto ",
+			"valoracion": "5",
+			"tipo": "1",
+			"estado": "1",
+			"descripcion": "Comenzo como zona de descarga de contenedores sobre desechos de construccion. Ahora es un basural a cielo abierto donde la gente tira su basura.",
+			"imgs": [
+				{
+					"src": "img4-1.jpg"
+				},
+				{
+					"src": "img4-2.jpg"
+				},
+				{
+					"src": "img4-3.jpg"
+				},
+				{
+					"src": "img4-4.jpg"
+				},
+				{
+					"src": "img4-5.jpg"
+				},
+				{
+					"src": "img4-6.jpg"
+				}
+			],
+			"location": {
+					"lat": -36.323832,
+					"lng": -57.666196
+					}
+		},
+		{	"id":5,
+			"nombre": "5 Capiel Barrio Termal",
+			"valoracion": "5",
+			"tipo": "2",
+			"estado": "1",
+			"descripcion": "Zona de gran contaminación , a pesar de estar alejada de la zona poblada. La gente se toma el trabajo de ir a tirarla ahi.",
+			"imgs": [
+					{
+						"src": "img1.jpg"
+					},
+					{
+						"src": "img2.jpg"
+					},
+					{
+						"src": "img3.jpg"
+					}
+				],
+			"location": {
+					"lat": -36.314345,
+					"lng": -57.656874
+					}
+			
+		},
+		{	"id":6,
+			"nombre": "6 Sevignie",
+			"valoracion": "5",
+			"tipo": "2",
+			"estado": "1",
+			"descripcion": "Zona de tiradero de basura de la población de Sevigne. Pertenece a la ciudad de Dolores.",
+			"imgs": [
+				{
+					"src": "img6-1.jpg"
+				}
+			],
+			"location": {
+					"lat": -36.204490,
+					"lng": -57.739331
+					}
+		},
+		{	"id":7,
+			"nombre": "7 Junin y Yugan",
+			"valoracion": "5",
+			"tipo": "3",
+			"estado": "1",
+			"descripcion": "Tiradero de basura bastante avanzado , Por sus caracteristicas es relativamente es un nuevo punto donde la gente arroja su basura.",
+			"imgs": [
+				{
+					"src": "img7-1.jpg"
+				},
+				{
+					"src": "img7-2.jpg"
+				},
+				{
+					"src": "img7-3.jpg"
+				},
+				{
+					"src": "img7-4.jpg"
+				}
+			],
+			"location": {
+					"lat": -36.300724,
+					"lng": -57.677018
+					}
+		},
+		{	"id":8,
+			"nombre": "8 Pistarini y Solis",
+			"valoracion": "5",
+			"tipo": "2",
+			"estado": "1",
+			"descripcion": "Zona bastante habitada, se encuentran desperdicios de construcción y chatarra.",
+			"imgs": [
+				{
+					"src": "img8-1.jpg"
+				},
+				{
+					"src": "img8-2.jpg"
+				},
+				{
+					"src": "img8-3.jpg"
+				}
+			],
+			"location": {
+					"lat": -36.327758,
+					"lng": -57.682769
+					}
+		},
+		{	"id":9,
+			"nombre": "9 Lincoln y Pampas",
+			"valoracion": "5",
+			"tipo": "3",
+			"estado": "1",
+			"descripcion": "Zona alejada de población se encuentra basura exparsida a lo largo de la calle.",
+			"imgs": [
+				{
+					"src": "img9-1.jpg"
+				}
+			],
+			"location": {
+					"lat": -36.338870,
+					"lng": -57.676208
+					}
+		},
+		{	"id":10,
+			"nombre": "10 Bocalandro y Piloto",
+			"valoracion": "5",
+			"tipo": "3",
+			"estado": "1",
+			"descripcion": "Tiradero de basura, se encuentra en zona habitada.",
+			"imgs": [
+				{
+					"src": "img10-1.jpg"
+				}
+			],
+			"location": {
+					"lat": -36.329178,
+					"lng": -57.680235
+					}
+		},
+		{	"id":11,
+			"nombre": "11 Sucre y Lincoln",
+			"valoracion": "5",
+			"tipo": "3",
+			"estado": "1",
+			"descripcion": "Tiradero de basura, se encuentra en zona habitada.",
+			"imgs": [
+				{
+					"src": "img11-1.jpg"
+				},
+				{
+					"src": "img11-2.jpg"
+				},
+				{
+					"src": "img11-3.jpg"
+				}
+			],
+			"location": {
+					"lat": -36.324885,
+					"lng": -57.683007
+					}
+		},
+		{	"id":12,
+			"nombre": "12 Bavera y Lara",
+			"valoracion": "5",
+			"tipo": "3",
+			"estado": "1",
+			"descripcion": "Se encuentra en una zona rural, bastante alejado de la población, a si mismo gran parte de la zona se encuentra afectada por plasticos y basura desechada por la gente.",
+			"imgs": [
+				{
+					"src": "img12-1.jpg"
+				},
+				{
+					"src": "img12-2.jpg"
+				},
+				{
+					"src": "img12-3.jpg"
+				},
+				{
+					"src": "img12-4.jpg"
+				},
+				{
+					"src": "img12-5.jpg"
+				},
+				{
+					"src": "img12-6.jpg"
+				},
+				{
+					"src": "img12-7.jpg"
+				},
+				{
+					"src": "img12-8.jpg"
+				}
+			],
+			"location": {
+					"lat": -36.333484,
+					"lng": -57.664811
+					}
+		},
+		{	"id":13,
+			"nombre": "13 Marconi",
+			"valoracion": "5",
+			"tipo": "3",
+			"estado": "1",
+			"descripcion": "Viejos tiraderos de basura, si bien no se encuentran activos y fueron limpiados , todavia quedan restos de plasticos que pueden ser limpiados.",
+			"imgs": [
+				{
+					"src": "img13-1.jpg"
+				},
+				{
+					"src": "img13-2.jpg"
+				},
+				{
+					"src": "img13-3.jpg"
+				},
+				{
+					"src": "img13-4.jpg"
+				}
+			],
+			"location": {
+					"lat": -36.306016,
+					"lng": -57.672098
+					}
+		},
+		{	"id":14,
+			"nombre": "14 Espora",
+			"valoracion": "5",
+			"tipo": "3",
+			"estado": "1",
+			"descripcion": "Amplio deposito de chatarra y basura.",
+			"imgs": [
+				{
+					"src": "img14-1.jpg"
+				},
+				{
+					"src": "img14-2.jpg"
+				}
+			],
+			"location": {
+					"lat": -36.310218,
+					"lng": -57.688337
+					}
+		},
+		{	"id":15,
+			"nombre": "15 Int. Tamagno y 9 de Julio",
+			"valoracion": "5",
+			"tipo": "3",
+			"estado": "1",
+			"descripcion": "Importante deposito de chatarra y basura.",
+			"imgs": [
+				{
+					"src": "img15-1.jpg"
+				},
+				{
+					"src": "img15-2.jpg"
+				}
+			],
+			"location": {
+					"lat": -36.313612,
+					"lng": -57.686180
+					}
+		},
+		{	"id":16,
+			"nombre": "16 Favaloro",
+			"valoracion": "5",
+			"tipo": "1",
+			"estado": "1",
+			"descripcion": "Basural a cielo abierto, si bien fue removido, todavia queda un gran impacto de lo que fue el basural. La gente sigue tirando basura.",
+			"imgs": [
+				{
+					"src": "img16-1.jpg"
+				},
+				{
+					"src": "img16-2.jpg"
+				},
+				{
+					"src": "img16-3.jpg"
+				}
+			],
+			"location": {
+					"lat": -36.337654,
+					"lng": -57.681393
+					}
+		},
+		{	"id":17,
+			"nombre": "17 Paz y Campagne",
+			"valoracion": "5",
+			"tipo": "2",
+			"estado": "1",
+			"descripcion": "Importante basural y tiradero de chatarra. No conocemos su magnitud porque esta en una zona privada.",
+			"imgs": [
+				{
+					"src": "img17-1.jpg"
+				},
+				{
+					"src": "img17-2.jpg"
+				},
+				{
+					"src": "img17-3.jpg"
+				}
+			],
+			"location": {
+					"lat": -36.324927,
+					"lng": -57.691511
+					}
+		},
+		{	"id":18,
+			"nombre": "18 Ex Ruta 2",
+			"valoracion": "5",
+			"tipo": "1",
+			"estado": "1",
+			"descripcion": "Zona donde la gente arroja los desechos y basuras, Recientemente fue limpiado. Desconozco si la gente continuo tirando basura. ",
+			"location": {
+					"lat": -36.278913,
+					"lng": -57.700946
+					}
+		},
+		{	"id":19,
+			"nombre": "19 Calle Rico",
+			"valoracion": "5",
+			"tipo": "2",
+			"estado": "1",
+			"descripcion": "Se encuentra en una zona rural, bastante alejado de la población, a si mismo gran parte de la zona se encuentra afectada por plasticos y basura desechada por la gente.",
+			"imgs": [
+				{
+					"src": "img19-1.jpg"
+				}
+			],
+			"location": {
+					"lat": -36.333151,
+					"lng": -57.667112
+					}
+		}
+
+		],
+	"status": "OK"
+}
