@@ -12,7 +12,7 @@ const MapaDetalle = () =>{
   var [places , updateoarray] = useState();
 
   useEffect(() => {
-   console.log("sad")
+   //console.log("sad")
   });
 
    const defaultProps = {
