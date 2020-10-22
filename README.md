@@ -8,11 +8,11 @@ Version online https://sumandoeco.com.ar/mapabasural
 <code>git clone https://github.com/tomasbevi/mapabasuralesdolores.git </code>
 
 <h5>Create a .env File </h5>
-<code> 
-REACT_APP_MAP_KEY=[YOURAPIKEYGOOGLEMAP]
-REACT_APP_PUBLIC_URL=[URL EXAMPLE HTTP://localhost]
-REACT_APP_URL_API=https://apibasurales.herokuapp.com
-</code> 
+
+<code> REACT_APP_MAP_KEY=[YOURAPIKEYGOOGLEMAP]</code> 
+<code> REACT_APP_PUBLIC_URL=[URL EXAMPLE HTTP://localhost]</code> 
+<code> REACT_APP_URL_API=https://apibasurales.herokuapp.com</code> 
+
 
 <h5>Install dependencies </h5>
 <code> npm install</code>
