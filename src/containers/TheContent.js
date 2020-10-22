@@ -35,7 +35,7 @@ const TheContent = () => {
                   )} />
               )
             })}
-            <Redirect from="/" to="/mapa" />
+            <Redirect from="/" to="/mapabasural/" />
           </Switch>
         </Suspense>
       </CContainer>

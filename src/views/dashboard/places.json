@@ -388,8 +388,26 @@
 					"lat": -36.333151,
 					"lng": -57.667112
 					}
+		},
+		{	"id":20,
+			"nombre": "20 Juncal y Bavera",
+			"valoracion": "5",
+			"tipo": "2",
+			"estado": "1",
+			"descripcion": "Se observa chatarra al lado de la via pública.",
+			"imgs": [
+				{
+					"src": "img20-1.jpg"
+				},
+				{
+					"src": "img20-2.jpg"
+				}
+			],
+			"location": {
+					"lat": -36.337326,
+					"lng": -57.679474
+					}
 		}
-
 		],
 	"status": "OK"
 }

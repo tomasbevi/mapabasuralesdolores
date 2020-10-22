@@ -1,4 +1,4 @@
-import React , {useState} from 'react'
+import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import {
   CCreateElement,
@@ -9,27 +9,37 @@ import {
   CSidebarMinimizer,
   CSidebarNavDropdown,
   CSidebarNavItem,
+  CSidebarBrand,
+  CImg
 } from '@coreui/react'
 import { CIcon } from '@coreui/icons-react';
 
-import datajs from '../views/dashboard/places.json';
 
 // sidebar nav config
 import navigation from './_nav'
+import MenuCustom from './menucustom';
 
-const TheSidebar = () => {
+
+const TheSidebar = () => { 
+
+  
   const dispatch = useDispatch()
   var show = useSelector(state => state.sidebarShow)
-  const [places]= useState(datajs);
-  const cantidadresults = places.results;
+  
 
   return (
   <CSidebar
     show={show}
     onShowChange={(val) => dispatch({type: 'set', sidebarShow: val })}
   >
-     
+     <CSidebarBrand  onClick={()=>{window.open("https://www.sumandoeco.com.ar/")}} className="d-md-down-none" to="/" style={{backgroundColor : '#ebedef'}}>
+     <CImg
+          className="c-sidebar-brand-full"
+          src={process.env.REACT_APP_PUBLIC_URL+"/imgs/logo.png"}
+        />
+      </CSidebarBrand>
     <CSidebarNav>
+
         <CCreateElement
           _tag="CSidebarNavItem"
           items={navigation}
@@ -53,15 +63,7 @@ const TheSidebar = () => {
                 }}
             > 
            
-              {cantidadresults.map((place, idx) => {
-                return (
-                <CSidebarNavItem
-                  key={idx}
-                  name={place.nombre}
-                  to={"/detalle/"+ place.id}
-                />
-                )
-               })}
+            <MenuCustom/>
             </CSidebarNav>
          
       </CSidebarNav>
@@ -69,5 +71,6 @@ const TheSidebar = () => {
   </CSidebar>
   )
 }
+
 
 export default React.memo(TheSidebar)

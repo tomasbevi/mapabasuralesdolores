@@ -1,5 +1,7 @@
+/* eslint-disable eqeqeq */
 import React from 'react';
 import styled from 'styled-components';
+import {useHistory} from 'react-router-dom'
 
 const Wrapper = styled.div`
 background-color: ${(props) =>(props.color == 1 ? 'red' : props.color == 2 ? '#dde80e' : '#1cb845')};
@@ -23,15 +25,15 @@ const Pwrapper = styled.div`
   width:200px;
   margin-top:20px;
   font-weight: bold;
-  
- 
 `;
 
 
 const Marker = (props) => {
+  const history = useHistory();
 
   return (
           <Wrapper
+          onClick={(() => history.push(`/mapabasural/${props.addId}`))}
           color={props.estado}
           alt={props.text}
           title={props.text}
@@ -43,7 +45,5 @@ const Marker = (props) => {
   )
   
   };
-
-
 
 export default Marker;

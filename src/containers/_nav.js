@@ -4,8 +4,8 @@ import CIcon from '@coreui/icons-react'
 export default [
   {
     _tag: 'CSidebarNavItem',
-    name: 'Mapa de Calor',
-    to: '/mapa',
+    name: 'Mapa Basurales',
+    to: '/mapabasural/',
     icon: <CIcon name="cil-map" customClasses="c-sidebar-nav-icon"/>,
     badge: {
       color: 'info'
